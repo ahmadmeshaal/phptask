@@ -18,4 +18,5 @@ if (isset($_POST["submit"])) {
     $regester = new RegesterContr($name, $password, $confirmPassword,$email);
 
     $regester->regesterUser();
+
 }
